@@ -152,10 +152,13 @@ lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
 
 
 
+
 14. Membuat folder template pada direktori view kemudian buat file header.php dan 
 footer.php
 
 header.php
+
+
 ![8.png](gambar/8.png)
 
 
@@ -164,6 +167,7 @@ header.php
 
 
 footer.php
+
 ![8_1.png](gambar/8_1.png)
 
 
@@ -181,6 +185,51 @@ footer.php
 Refresh kembali browsernya
 
 ![8_3.png](gambar/8_3.png)
+
+
+
+
+
+
+# Pertanyaan dan Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga 
+semua link pada navigasi header dapat menampilkan tampilan dengan layout yang 
+sama
+
+## Menambahkan kode pada Routes.php seperti gambar berikut.
+
+![9.png](gambar/9.png)
+
+
+
+
+## Menambahkan pada kode pada Controller\page.php.
+
+![9_1.png](gambar/9_1.png)
+
+
+
+
+
+ Kemudian buka browser untuk meilhat hasilnya
+
+![9_2.png](gambar/9_2.png)
+
+
+
+
+
+## Ubah file contact.php seperti berikut.
+
+![10.png](gambar/10.png)
+
+
+
+
+Kemudian Refresh pada URL tersebut.
+
+![10_1.png](gambar/10_1.png)
+
 
 
 

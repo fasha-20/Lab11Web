@@ -8,9 +8,13 @@ class Page extends BaseController
   {
     return view('about', ['title' => 'Halaman About', 'content' => 'Ini adalah halaman about yang menjelaskan tentang isi halaman ini.']);
   }
+  public function artikel()
+  {
+    return view('about', ['title' => 'Halaman Artikel', 'content' => 'Ini adalah halaman artikel yang menjelaskan tentang isi halaman ini.']);
+  }
   public function contact()
   {
-    echo " Ini halaman Contact";
+    return view('about', ['title' => 'Halaman Contact', 'content' => 'Ini adalah halaman contact yang menjelaskan tentang isi halaman ini.']);
   }
   public function faqs()
   {
