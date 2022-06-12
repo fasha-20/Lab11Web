@@ -175,4 +175,219 @@ footer {
 }
 .entry .right-img {
     float: right;
+}  
+
+
+/* Admin  */
+
+.table{
+font-family: sans-serif;
+color: #232323;
+border-collapse: collapse;
+/* margin-top: 20px;
+margin-left: 100px;
+margin-bottom: 20px; */
+margin: 20px 50px;
+width: 90%;
 }
+
+.table th{
+background-color: #1f548c;
+color:rgb(255, 255, 255);
+}
+
+.table, th, td{
+border: 1px solid rgb(255, 255, 255);
+padding: 8px 20px;
+}
+
+.table .btn{
+    margin-right: 10px;
+}
+
+.btn:link,
+.btn:visited{
+    background-color: rgb(107, 109, 107);
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(37, 42, 42);
+}
+
+.btn-danger:link,
+.btn-danger:visited{
+    background-color: rgb(213, 42, 42);
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.btn-danger:hover{
+    background-color: rgb(183, 7, 7);
+}
+
+/* From_ADD */
+
+.add{
+    margin: 20px 50px;
+}
+
+.add .title{
+    padding-bottom: 20px;
+}
+
+.add input[type=text], textarea{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0px;
+    padding-left: 5px;
+    font-size: 11pt;
+}
+
+
+.add input[type=submit]{
+    padding: 10px 0px;
+    width: 50px;
+    border: none;
+    color: white;
+    background-color: #2b83ea;
+}
+
+.add input[type=submit]:hover{
+    background-color: #0e55a0;
+    cursor: pointer;
+}
+
+
+/* About */
+
+
+.about1 .konten{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.konten img{
+    width: 250px;
+    margin-left: 40px;
+    border-radius: 50%;
+    /* box-shadow: 5px 0px 25px rgb(34,34,35); */
+}
+.konten h1{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.konten h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+/* Kontak */
+
+.kontak{
+    line-height: 1;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+}
+
+.contak{
+    width: 200%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.contak .from-contak{
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.from-contak h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.from-contak .from-grup input{
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.from-contak hr{
+    margin-bottom: 10px;
+}
+
+.from-contak .from-grup textarea{
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.kirim-kontak{
+    width: 100%;
+    background-color: rgb(30, 0, 255);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.kirim-kontak:hover{
+    background-color: #0e55a0;
+}
+
+/* Box Kontak */
+
+
+.kontak-box img{
+    width: 130px;
+    margin-left: 40px;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.kontak-box h2{
+    padding-bottom: -190px;
+}
+
+
+/* Bagian Artikel Index.php */
+
+.artikel_index h2,a{
+    text-decoration: none;
+    color: black;
+}
+
+.artikel_index h2,a:hover{
+    color: #0e55a0;
+}
+
+
+
+
+
+
+
+
+
+

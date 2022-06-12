@@ -10,14 +10,11 @@
 <body>
   <div id="container">
     <header>
-      <h1>Layout Sederhana</h1>
+      <h1>Portal Berita Artikel</h1>
     </header>
     <nav>
-      <a href="<?= base_url('index.php/Home'); ?>" class="active">Home</a>
+      <a href="<?= base_url('admin/artikel'); ?>" class="active">Dashboard</a>
       <a href="<?= base_url('/artikel'); ?>">Artikel</a>
-      <a href="<?= base_url('public/about'); ?>">About</a>
+      <a href="<?= base_url('admin/artikel/add'); ?>">Tambah Artikel</a>
 
-      <a href="<?= base_url('public/contact'); ?>">Kontak</a>
     </nav>
-    <section id="wrapper">
-      <section id="main">
