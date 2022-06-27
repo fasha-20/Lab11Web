@@ -15,9 +15,9 @@
     <nav>
       <a href="<?= base_url('index.php/Home'); ?>" class="active">Home</a>
       <a href="<?= base_url('/artikel'); ?>">Artikel</a>
-      <a href="<?= base_url('public/about'); ?>">About</a>
-
-      <a href="<?= base_url('public/contact'); ?>">Kontak</a>
+      <a href="<?= base_url('/about'); ?>">About</a>
+      <a href="<?= base_url('/contact'); ?>">Kontak</a>
+      <a href="<?= base_url('/admin/artikel'); ?>">Tambah Artikel</a>
     </nav>
     <section id="wrapper">
       <section id="main">
