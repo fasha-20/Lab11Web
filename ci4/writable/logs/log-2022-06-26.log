@@ -1,1 +1,128 @@
 ERROR - 2022-06-26 21:56:21 --> Unknown column 'usermail' in 'field list'
+CRITICAL - 2022-06-26 23:06:11 --> Undefined property: App\Controllers\Artikel::$ArtikelModel
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:08:19 --> Undefined property: App\Controllers\Artikel::$ArtikelModel
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:09:13 --> Undefined property: App\Controllers\Artikel::$ArtikelModel
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:15:06 --> Undefined property: App\Controllers\Artikel::$ArtikelModel
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:15:55 --> Undefined property: App\Controllers\Artikel::$ArtikelModel
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:21:37 --> compact(): Undefined variable $artikel
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(44): compact('artikel', 'title', 'data')
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-26 23:21:45 --> compact(): Undefined variable $artikel
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(44): compact('artikel', 'title', 'data')
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-26 23:22:20 --> compact(): Undefined variable $artikel
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(44): compact('artikel', 'title', 'data')
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-26 23:23:14 --> Array to string conversion
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:24:49 --> Array to string conversion
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:25:49 --> Array to string conversion
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:27:12 --> Array to string conversion
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-26 23:28:03 --> Undefined variable $title
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Views\template\admin_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\View\View.php(424): CodeIgniter\View\View->render('template/admin_...', NULL, true)
+#4 C:\xampp\htdocs\Lab11Web\ci4\app\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_...')
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Lab11Web\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Lab11Web\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#8 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(45): view('artikel/admin_i...', Array)
+#9 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#10 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#11 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-06-26 23:54:34 --> Undefined variable $q
+#0 C:\xampp\htdocs\Lab11Web\ci4\app\Views\artikel\admin_index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\Lab11Web\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Lab11Web\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Lab11Web\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#4 C:\xampp\htdocs\Lab11Web\ci4\app\Controllers\Artikel.php(47): view('artikel/admin_i...', Array)
+#5 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#6 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\Lab11Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab11Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab11Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -448,8 +448,56 @@ padding: 8px 20px;
 }
 
 
+.baru nav{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.baru ul li{
+    display: inline-block;
+    background-color: #1d1d1d;
+    border-radius: 10px ;
+}
+
+.baru .active{
+    background-color: #1f5faa;
+    border-radius: 10px;
+    color: white;
+}
 
 
+.baru a:hover{
+    background-color: #5a5a5a;
+    color: white;
+    border-radius:10px ;
+}
 
+
+.form-search{
+    margin: 25px 50px ;
+}
+
+.form-search input[type=text]{
+    height: 30px;
+    font-size: 15px;
+}
+.form-search input[type=submit]{
+    height: 34px;
+    font-size: 15px;
+    width: 50px;
+}
+
+.form-search .btn:hover{
+    background-color: #0e55a0;
+    cursor: pointer;
+    color: white;
+    /* border: none; */
+}
+
+.form-search .btn{
+    border: none;
+    background-color: #9b9bec
+}
 
 

@@ -31,10 +31,20 @@ class Artikel extends BaseController
   // Menu Admin
   public function admin_index()
   {
-    $title = 'Daftar Artikel';
+
     $model = new ArtikelModel();
-    $artikel = $model->findAll();
-    return view('artikel/admin_index', compact('artikel', 'title'));
+    $baru = $this->request->getVar('baru') ?? '';
+    $data = [
+      #data dibatasi 10 record per halaman 
+      'title' => "Daftar Artikel",
+      'baru' => $baru,
+      'artikel' => $model->like('judul', $baru)->paginate(2),
+      'pager' => $model->pager,
+
+    ];
+
+    // return view('/artikel/admin_index', compact('artikel', 'title', 'data'));
+    return view('artikel/admin_index', $data);
   }
 
   // ADD
@@ -46,11 +56,15 @@ class Artikel extends BaseController
     $isDataValid = $validation->withRequest($this->request)->run();
 
     if ($isDataValid) {
+      $file = $this->request->getFile('gambar');
+      $file->move(ROOTPATH . 'public/gambar');
       $artikel = new ArtikelModel();
+
       $artikel->insert([
         'judul' => $this->request->getPost('judul'),
         'isi' => $this->request->getPost('isi'),
         'slug' => url_title($this->request->getPost('judul')),
+        'gambar' => $file->getName(),
       ]);
       return redirect('admin/artikel');
     }
